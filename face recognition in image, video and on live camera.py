@@ -1,3 +1,5 @@
+# 1]Face recognition on image
+
 import cv2
 import sys
 
@@ -26,6 +28,7 @@ for (x,y,w,h) in faces:
 cv2.imshow('img',img)
 cv2.waitKey(0)
 #-------------------------------------------------------------------------------------------------------------------------------
+# 2]Face recognition on video
 
 import sys
 import cv2
@@ -61,6 +64,7 @@ cv2.destroyAllWindows()
 a.release()
 
 #-------------------------------------------------------------------------------------------------------------------------------
+# 1]Face recognition on live camera
 
 import sys
 import cv2
